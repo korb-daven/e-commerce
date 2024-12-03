@@ -3,6 +3,7 @@ export default{
     name: 'CategoryComponent',
     props: ['name', 'amount', 'color', 'image' ]
 }
+
 </script>
 <template>
     <div class="wrapper" :style="{backgroundColor: color}">
