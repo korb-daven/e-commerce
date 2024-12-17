@@ -1,5 +1,6 @@
 <template>
     <div class="mainHeader">
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 20px;">
         <!-- Logo Section -->
         <div class="brandLogo">
             <div class="brandText">
@@ -50,6 +51,8 @@
                 </div>
             </div>
         </div>
+        </div>
+        
 
         <!-- Navigation Categories and Support -->
         <div class="navigationBar">
@@ -199,8 +202,11 @@ export default {
 
 /* Navigation Bar */
 .navigationBar {
+    width: 100%;
     margin-top: 40px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     flex-wrap: wrap;
     justify-content: flex-start;
     gap: 20px;
